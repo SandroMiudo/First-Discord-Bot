@@ -1,0 +1,5 @@
+
+ IMPORTANT : ChannelName can't contain " " but Categories can !!!
+  -> if used in categories referencing them should contain % instead of " "
+
+  Example InsertChannel needs a Category if with " " use % instead

@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3333/db
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+  token: ${TOKEN_DISCORD}
+  guildID: ${GUILD_ID}
+  clientID: ${CLIENT_ID}
+  member:
+    values: ${MEMBER_VALUES}  # ### Usage ### name:discriminator;role1,role2,...,roleN%name:discriminator;role1,...,roleN
+  sql:
+    init:
+      data-locations: sql
+
+

@@ -1,0 +1,4 @@
+// name,hashtag:role1,role2,...,roleN     // if not set in this way an error is thrown
+
+
+
